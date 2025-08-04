@@ -51,7 +51,7 @@ CreditCardFraudDetection/
 
 How to Run
 
-1. Clone the repo: https://github.com/yourusername/CreditCardFraudDetection.git
+1. Clone the repo: https://github.com/felicitymk/CreditCardFraudDetection.git
 2. Install dependencies:pip install -r requirements.txt
 3. Run the training script:python Train_model.py
 
