@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Model & data files (optional)
+*.csv
+*.pkl
+
+# System
+.DS_Store
+Thumbs.db
+
