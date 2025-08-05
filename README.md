@@ -5,7 +5,8 @@ Powered by XGBoost, balanced using SMOTE, and deployed via Streamlit.
 
 
  Project Overview
--**Due to GitHub’s file size restrictions, the full `creditcard.csv` dataset is **not included** in this repository.
+
+-**Due to GitHub’s file size restrictions, the full `creditcard.csv` dataset is **not included** in this repository.To run the project locally, please download the dataset from [this Kaggle link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud), and place it inside the `data/` folder as: `creditcard.csv`
 - **Dataset:** [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - **Goal:** Accurately identify fraudulent transactions with high precision and recall.
 - **Best Performing Model:** XGBoost with a ROC AUC score of **0.97**.
