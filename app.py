@@ -2,6 +2,20 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+import os
+
+data_path = "data/creditcard.csv"
+
+if not os.path.exists(data_path):
+    st.error(
+        "Dataset not found! Please download 'creditcard.csv' from "
+        "[Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place it in the 'data/' folder."
+    )
+    st.stop()
+
+df = pd.read_csv(data_path)
+
+
 # Load the saved model and scaler
 model = joblib.load("models/xgboost_model.pkl")
 scaler = joblib.load("models/scaler.pkl")
@@ -73,6 +87,7 @@ else:
 
 model = joblib.load("models/xgboost_model.pkl")
 scaler = joblib.load("models/scaler.pkl")
+
 
 
 
