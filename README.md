@@ -1,7 +1,7 @@
 Credit Card Fraud Detection using Machine Learning
 
-This Project detects fraudulent credit card transactions using machine learning algorithms. It tackles the real-world 
-challenge of class imbalance and evaluates multiple models to identify the most effective one.
+A machine learning app that detects fraudulent transactions using an imbalanced dataset of over 280,000 records. 
+Powered by XGBoost, balanced using SMOTE, and deployed via Streamlit.
 
 
  Project Overview
@@ -38,14 +38,17 @@ Models Trained
 
 File Structure
 
-CreditCardFraudDetection/
+Credit-Card-Fraud-Detector/
 │
 ├── Data/
-│ └── creditcard.csv
-├── Train_model.py # Full training pipeline
-├── scaler.pkl # Saved StandardScaler
-├── xgboost_model.pkl # Best performing trained model
+│   └── creditcard.csv
+├── Train_model.py        # Full training pipeline
+├── app.py                # Streamlit app
+├── scaler.pkl            # Saved StandardScaler
+├── xgboost_model.pkl     # Trained model
+├── requirements.txt
 └── README.md
+
 
 
 
@@ -54,6 +57,16 @@ How to Run
 1. Clone the repo: https://github.com/felicitymk/CreditCardFraudDetection.git
 2. Install dependencies:pip install -r requirements.txt
 3. Run the training script:python Train_model.py
+
+Demo
+-Try it live
+-🔗 Streamlit App Link Here]
+-Or clone and run locally:
+git clone https://github.com/FelicityMK/Credit-Card-Fraud-Detector.git
+cd Credit-Card-Fraud-Detector
+pip install -r requirements.txt
+streamlit run app.py
+
 
 
 Next Steps
