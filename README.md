@@ -3,6 +3,7 @@ A machine learning app that detects fraudulent transactions using an imbalanced 
 Powered by XGBoost, balanced with SMOTE, and deployed via Streamlit.
 
 Project Overview
+
 Due to GitHub’s file size restrictions, the full creditcard.csv dataset is not included in this repo.
 To run the project locally, download it from Kaggle and place it in the Data/ folder as:
 Data/creditcard.csv
