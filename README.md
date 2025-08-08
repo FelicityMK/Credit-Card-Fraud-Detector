@@ -118,9 +118,11 @@ Next Steps
 
 Author; Felistas Kandenye
 
-Hybrid Techie & Storyteller ✨ | Python • Cloud • AI
+Hybrid Techie & Storyteller | Python • Cloud • AI
 
-🔗 LinkedIn
+LinkedIn
+
+
 
 
 License
